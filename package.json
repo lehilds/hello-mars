@@ -1,18 +1,24 @@
 {
-  "name": "trip-to-mars",
+  "name": "lehi-trip-to-mars",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "dependencies": {
     "express": "^4.13.3",
-    "lodash": "^3.10.1"
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^2.0.0",
+    "hello-mars": "file:../node_modules/hello-mars",
+    "lodash": "^3.10.1",
+    "underscore": "^1.8.1"
   },
   "devDependencies": {
     "jshint": "^2.8.0"
   },
   "scripts": {
     "start": "node server.js",
-    "test": "node test.js"
+    "test": "node test.js",
+    "myscript": "node myscript.js",
+    "uglify": "gulp compress"
   },
   "author": "Joe Eames",
   "license": "ISC"
