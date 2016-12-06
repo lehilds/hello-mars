@@ -1,3 +1,3 @@
-var hi = require("hello-mars");
-console.log('Hello mars!');
-hi();
+module.exports = function() {
+    console.log('Hello mars!!');
+}
