@@ -1,7 +1,7 @@
 {
   "name": "lehi-trip-to-mars",
   "version": "1.0.0",
-  "description": "",
+  "description": "Say hello to mars",
   "main": "index.js",
   "dependencies": {
     "express": "^4.13.3",
@@ -20,6 +20,17 @@
     "myscript": "node myscript.js",
     "uglify": "gulp compress"
   },
-  "author": "Joe Eames",
-  "license": "ISC"
+  "author": "Lehi Alcantara",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lehilds/hello-mars.git"
+  },
+  "keywords": [
+    "mars"
+  ],
+  "bugs": {
+    "url": "https://github.com/lehilds/hello-mars/issues"
+  },
+  "homepage": "https://github.com/lehilds/hello-mars#readme"
 }
