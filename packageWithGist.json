@@ -1,0 +1,20 @@
+{
+  "name": "npmPlaybook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Lehi Alcantara",
+  "license": "MIT",
+  "dependencies": {
+    "hello-mars": "gist:eb1c85bef8e73913bc546b97cee8a853",
+    "lodash": "^4.17.2",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "karma": "^1.3.0"
+  }
+}
